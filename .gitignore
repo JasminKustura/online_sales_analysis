@@ -1,0 +1,7 @@
+config.json
+
+
+#Ignorisanje slika
+*.png
+*.jpg
+*.jpeg
