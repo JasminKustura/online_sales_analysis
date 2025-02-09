@@ -29,6 +29,7 @@ cart.add_to_cart(manager.products[3])
 
 #Prikaz korpe i ukupne vrednosti
 
+
 cart.display_cart()
 print(f"Ukupna vrednost korpe: {cart.calculate_total()}")
 

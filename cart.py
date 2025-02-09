@@ -3,11 +3,11 @@ class Cart:
         self.items = []
 
     def add_to_cart(self, product):
-        self.cart_items.append(product)
+        self.items.append(product)
 
     def calculate_total(self):
-        return sum(p.price for p in self.cart_items)
+        return sum(p.price for p in self.items)
     
     def display_cart(self):
-        for product in self.cart_items:
+        for product in self.items:
             print(product.display_info())
